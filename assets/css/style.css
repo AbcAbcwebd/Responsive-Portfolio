@@ -67,9 +67,6 @@ footer {
 	height: 150px;
 }
 
-.seccon {
-}
-
 .asicon {
 	width: 270px;
 	float: left;
@@ -104,9 +101,6 @@ header h1 {
 	font-size: 30px;
 }
 
-article {
-}
-
 #page_top {
 	background-color: #ffffff;
 	height: 80px;
@@ -132,10 +126,6 @@ h1 h2 h3 {
     color: white;
     width: 15em;
     margin-top: 30px;
-}
-
-#con_head {
-
 }
 
 #thumb_1 {
@@ -297,9 +287,6 @@ button {
 	top: 80px;
 }
 
-form {
-}
-
 #cont_foot {
 	position: relative;
 	top: 70px;
@@ -311,4 +298,62 @@ form {
 
 li:hover {
 	font-weight: bold;  
+}
+
+@media screen and (max-width: 980px) {
+    body {
+        
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        
+    }
+}
+
+@media screen and (max-width: 640px) {
+    header {
+       width: 100%; 
+       margin-left: 0px;
+       text-align: center;
+       position: static;
+    }
+
+    ul {
+    	width: 100%;
+    	background-color: #ffffff;
+    	float: left;
+    	padding-left: 25px;
+    }
+
+    li {
+    	float: left;
+    	padding-right: 10%;
+    	padding-left: 10%;
+    }
+
+    section {
+    	width: 610px;
+    	margin-left: 15px;
+    	margin-top: 15px;
+    }
+
+    .asicon {
+    	width: 610px;
+    	margin-left: 15px;
+    	margin-top: 30px;
+    	padding-bottom: 30px;
+    	margin-bottom: 0px;
+    }
+
+    #con_head {
+    	left: -65%;
+    }
+
+    .social_pal {
+    	position: relative;
+    	left: -70%;
+    	padding-left: 0px;
+    }
 }
