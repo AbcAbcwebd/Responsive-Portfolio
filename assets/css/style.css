@@ -301,16 +301,131 @@ li:hover {
 }
 
 @media screen and (max-width: 980px) {
-    body {
-        
+     section {
+    	width: 430px;
+    	margin-left: 40px;
+    	margin-top: 40px;
     }
+
+    .asicon {
+    	margin-right: 0px;
+    }
+
+    ul {
+    	margin-right: 60px;
+    }
+
+    .port_image {
+		max-width: 100%;
+		max-height: auto;
+		margin: 25px 0px 10px 0px;
+	}
+
+    #thumbnail {
+    	margin-left: 0px;
+    	width: 100%;
+    	margin-top: 25px;
+    }
+
+    .port_over1 {
+		position: absolute; 
+		top: 14.75%; 
+		margin-left: 0px;
+		width: 100%;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+		font-size: 150%;
+	}
+
+	.port_over2 {
+		position: absolute; 
+		top: 30.1%; 
+		margin-left: 0px;
+		width: 100%;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+		font-size: 150%;
+		right: 0%;
+	}
+
+	.port_over3 {
+		position: absolute; 
+		top: 45.5%; 
+		margin-left: 0px;
+		width: 100%;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+		font-size: 150%;
+	}
+
+	.port_over4 {
+		position: absolute; 
+		top: 65.5%; 
+		margin-left: 0px;
+		width: 100%;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+		font-size: 150%;
+		right: 0%;
+	}
+
+	.port_over5 {
+		position: absolute; 
+		top: 79.25%; 
+		margin-left: 0px;
+		width: 100%;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+		font-size: 150%;
+	}
+
+	.port_over6 {
+		position: absolute; 
+		top: 94.5%; 
+		margin-left: 0px;
+		width: 100%;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+		font-size: 150%;
+		right: 0%;
+	}
+
+	header {
+		padding-top: 25px;
+		height: 55px;
+	}
+
+	
+	input {
+    	width: 33.5em;
+    	margin-left: 0px;
+    	margin-right: 0px
+    	padding-bottom: 5px;
+    	padding-left: 0px;
+    	padding-top: 5px;
+	}
+
+	label {
+		float: left;
+    	overflow: hidden;
+	}
+
+	textarea {
+   		width: 33.5em;
+   		margin-left: 0px;
+   		margin-right: 0px
+	}
 }
 
 @media screen and (max-width: 768px) {
     li:not(:last-child) {
        border-left: 1px solid #cccccc; 
-       padding: 0px 16px;
-       margin: 14px 0px;
     }
 
      section {
@@ -325,7 +440,7 @@ li:hover {
 		margin: 25px 5px 10px 15px;
 	}
 
-	  .asicon {
+	.asicon {
     	width: 730px;
     	margin-left: 15px;
     	margin-top: 30px;
@@ -348,16 +463,21 @@ li:hover {
     	height: 55px;
     }
 
+    #home_header {
+    	padding-top: 0px;
+    	height: 80px;
+    }
+
 	.port_over1 {
-	position: absolute; 
-	top: 27%; 
-	right: 52.9%;
-	margin-left: 27px;
-	width: 45%;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	text-align: center;
-	font-size: 125%
+		position: absolute; 
+		top: 27%; 
+		right: 52.9%;
+		margin-left: 27px;
+		width: 45%;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		text-align: center;
+		font-size: 125%
 	}
 
 	.port_over2 {
@@ -421,24 +541,24 @@ li:hover {
 	}
 
 	input {
-    width: 60em;
-    margin-left: 0px;
-    margin-right: 0px
-    padding-bottom: 5px;
-    padding-left: 0px;
-    padding-top: 5px;
-}
+    	width: 60em;
+    	margin-left: 0px;
+    	margin-right: 0px
+    	padding-bottom: 5px;
+    	padding-left: 0px;
+    	padding-top: 5px;
+	}
 
-label {
-	float: left;
-    overflow: hidden;
-}
+	label {
+		float: left;
+	    overflow: hidden;
+	}
 
-textarea {
-    width: 60em;
-    margin-left: 0px;
-    margin-right: 0px
-}
+	textarea {
+	    width: 60em;
+	    margin-left: 0px;
+	    margin-right: 0px
+	}
 
 
 }
@@ -452,17 +572,24 @@ textarea {
        margin-top: 30px;
     }
 
+    li:not(:last-child) {
+       border: none;
+    }
+
     ul {
     	width: 100%;
     	background-color: #ffffff;
     	float: left;
-    	padding-left: 25px;
+    	padding-left: 10px;
+    	padding-bottom: 10px;
     }
 
     li {
+    	padding: 0px 0px;
+       	margin: 0px 0px 0px;
     	float: left;
-    	padding-right: 10%;
-    	padding-left: 10%;
+    	padding-right: 11%;
+    	padding-left: 11%;
     }
 
     section {
@@ -500,71 +627,75 @@ textarea {
 	}
 
 	.port_over1 {
-	position: absolute; 
-	top: 16.25%; 
-	margin-left: 0px;
-	width: 100%;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	text-align: center;
-	font-size: 150%;
-}
+		position: absolute; 
+		top: 16.25%; 
+		margin-left: 0px;
+		width: 100%;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+		font-size: 150%;
+	}
 
-.port_over2 {
-	position: absolute; 
-	top: 31.5%; 
-	margin-left: 0px;
-	width: 100%;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	text-align: center;
-	font-size: 150%;
-	right: 0%;
-}
+	.port_over2 {
+		position: absolute; 
+		top: 31.5%; 
+		margin-left: 0px;
+		width: 100%;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+		font-size: 150%;
+		right: 0%;
+	}
 
-.port_over3 {
-	position: absolute; 
-	top: 47%; 
-	margin-left: 0px;
-	width: 100%;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	text-align: center;
-	font-size: 150%;
-}
+	.port_over3 {
+		position: absolute; 
+		top: 47%; 
+		margin-left: 0px;
+		width: 100%;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+		font-size: 150%;
+	}
 
-.port_over4 {
-	position: absolute; 
-	top: 67%; 
-	margin-left: 0px;
-	width: 100%;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	text-align: center;
-	font-size: 150%;
-	right: 0%;
-}
+	.port_over4 {
+		position: absolute; 
+		top: 67%; 
+		margin-left: 0px;
+		width: 100%;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+		font-size: 150%;
+		right: 0%;
+	}
 
-.port_over5 {
-	position: absolute; 
-	top: 80.75%; 
-	margin-left: 0px;
-	width: 100%;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	text-align: center;
-	font-size: 150%;
-}
+	.port_over5 {
+		position: absolute; 
+		top: 80.75%; 
+		margin-left: 0px;
+		width: 100%;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+		font-size: 150%;
+	}
 
-.port_over6 {
-	position: absolute; 
-	top: 96%; 
-	margin-left: 0px;
-	width: 100%;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	text-align: center;
-	font-size: 150%;
-	right: 0%;
-}
+	.port_over6 {
+		position: absolute; 
+		top: 96%; 
+		margin-left: 0px;
+		width: 100%;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+		font-size: 150%;
+		right: 0%;
+	}
+
+	#home_header {
+		margin-top: 0px;
+	}
 }
