@@ -318,6 +318,129 @@ li:hover {
     	margin-left: 15px;
     	margin-top: 40px;
     }
+
+    .port_image {
+		max-width: 45%;
+		max-height: auto;
+		margin: 25px 5px 10px 15px;
+	}
+
+	  .asicon {
+    	width: 730px;
+    	margin-left: 15px;
+    	margin-top: 30px;
+    	padding-bottom: 30px;
+    	margin-bottom: 30px;
+    }
+
+     #con_head {
+    	left: -88%;
+    }
+
+    .social_pal {
+    	position: relative;
+    	left: -92%;
+    	padding-left: 0px;
+    }
+
+    header {
+    	padding-top: 25px;
+    	height: 55px;
+    }
+
+	.port_over1 {
+	position: absolute; 
+	top: 27%; 
+	right: 52.9%;
+	margin-left: 27px;
+	width: 45%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	font-size: 125%
+	}
+
+	.port_over2 {
+		position: absolute; 
+		top: 27%; 
+		right: 4.5%;
+		margin-left: 27px;
+		width: 45%;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		text-align: center;
+		font-size: 125%
+	}
+
+	.port_over3 {
+		position: absolute; 
+		top: 63%; 
+		right: 52.9%;
+		margin-left: 27px;
+		width: 45%;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		text-align: center;
+		font-size: 125%
+	}
+
+	.port_over4 {
+		position: absolute; 
+		top: 63%; 
+		right: 4.5%;
+		margin-left: 27px;
+		width: 45%;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		text-align: center;
+		font-size: 125%
+	}
+
+	.port_over5 {
+		position: absolute; 
+		top: 91%; 
+		right: 52.9%;
+		margin-left: 27px;
+		width: 45%;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		text-align: center;
+		font-size: 125%
+	}
+
+	.port_over6 {
+		position: absolute; 
+		top: 91%; 
+		right: 4.5%;
+		margin-left: 27px;
+		width: 45%;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		text-align: center;
+		font-size: 125%
+	}
+
+	input {
+    width: 60em;
+    margin-left: 0px;
+    margin-right: 0px
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-top: 5px;
+}
+
+label {
+	float: left;
+    overflow: hidden;
+}
+
+textarea {
+    width: 60em;
+    margin-left: 0px;
+    margin-right: 0px
+}
+
+
 }
 
 @media screen and (max-width: 640px) {
