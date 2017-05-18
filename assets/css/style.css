@@ -7,10 +7,11 @@ ul {
     margin: 0;
     padding: 0;
     padding-top: 15px;
+    float: right;
 }
 
 li {
-	float: right;
+	float: left;
 }
 
 li {
@@ -301,7 +302,7 @@ li:hover {
 }
 
 @media screen and (max-width: 980px) {
-     section {
+    section {
     	width: 430px;
     	margin-left: 40px;
     	margin-top: 40px;
@@ -397,8 +398,8 @@ li:hover {
 	}
 
 	header {
-		padding-top: 25px;
-		height: 55px;
+		padding-top: 0px;
+		height: 80px;
 	}
 
 	
@@ -421,6 +422,11 @@ li:hover {
    		margin-left: 0px;
    		margin-right: 0px
 	}
+
+	#port_header {
+		padding-top: 25px;
+		height: 65px;
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -428,7 +434,7 @@ li:hover {
        border-left: 1px solid #cccccc; 
     }
 
-     section {
+    section {
     	width: 738px;
     	margin-left: 15px;
     	margin-top: 40px;
@@ -458,7 +464,7 @@ li:hover {
     	padding-left: 0px;
     }
 
-    header {
+   	header {
     	padding-top: 25px;
     	height: 55px;
     }
@@ -559,7 +565,6 @@ li:hover {
 	    margin-left: 0px;
 	    margin-right: 0px
 	}
-
 
 }
 
@@ -700,6 +705,7 @@ li:hover {
 
 	#home_header {
 		margin-top: 0px;
+		padding-bottom: 25px;
 	}
 
 
