@@ -307,8 +307,16 @@ li:hover {
 }
 
 @media screen and (max-width: 768px) {
-    body {
-        
+    li:not(:last-child) {
+       border-left: 1px solid #cccccc; 
+       padding: 0px 16px;
+       margin: 14px 0px;
+    }
+
+     section {
+    	width: 738px;
+    	margin-left: 15px;
+    	margin-top: 40px;
     }
 }
 
@@ -318,6 +326,7 @@ li:hover {
        margin-left: 0px;
        text-align: center;
        position: static;
+       margin-top: 30px;
     }
 
     ul {
