@@ -98,7 +98,7 @@ header h1 {
 }
 
 #port_header {
-	padding-top: 0px;
+	padding-top: 25px;
 	font-size: 30px;
 }
 
@@ -431,7 +431,7 @@ li:hover {
 
 @media screen and (max-width: 768px) {
     li:not(:last-child) {
-       border-left: 1px solid #cccccc; 
+       border-right: 1px solid #cccccc; 
     }
 
     section {
@@ -564,6 +564,19 @@ li:hover {
 	    width: 60em;
 	    margin-left: 0px;
 	    margin-right: 0px
+	}
+
+	#port_header {
+		position: relative;
+		top: -25px;
+	}
+
+	#true_port_header {
+		padding-bottom: 0px;
+	}
+
+	#thumbnail {
+		width: 50%;
 	}
 
 }
@@ -727,5 +740,9 @@ li:hover {
 	    width: 50em;
 	    margin-left: 0px;
 	    margin-right: 0px
+	}
+
+	#thumbnail {
+		width: 100%;
 	}
 }
