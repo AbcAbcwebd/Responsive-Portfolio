@@ -95,8 +95,10 @@ header h1 {
 }
 
 #port_header {
-	padding-top: 25px;
 	font-size: 30px;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	height: 65px;
 }
 
 #page_top {
@@ -207,8 +209,8 @@ button {
 
 .port_over1 {
 	position: absolute; 
-	top: 23%; 
-	margin-left: 27px;
+	top: 26.75%; 
+	margin-left: 27.5px;
 	width: 40%;
 	color: white;
 	background-color: #4aaaa5;
@@ -219,7 +221,7 @@ button {
 
 .port_over2 {
 	position: absolute; 
-	top: 23%; 
+	top: 26.75%; 
 	right: 5.2%;
 	margin-left: 27px;
 	width: 40%;
@@ -232,7 +234,7 @@ button {
 
 .port_over3 {
 	position: absolute; 
-	top: 59%; 
+	top: 62.75%; 
 	margin-left: 27px;
 	width: 40%;
 	color: white;
@@ -244,7 +246,7 @@ button {
 
 .port_over4 {
 	position: absolute; 
-	top: 59%; 
+	top: 62.75%; 
 	right: 5.2%;
 	margin-left: 27px;
 	width: 40%;
@@ -257,7 +259,7 @@ button {
 
 .port_over5 {
 	position: absolute; 
-	top: 87%; 
+	top: 91%; 
 	margin-left: 28px;
 	width: 40%;
 	color: white;
@@ -269,7 +271,7 @@ button {
 
 .port_over6 {
 	position: absolute; 
-	top: 87%; 
+	top: 91%; 
 	right: 5.2%;
 	margin-left: 27px;
 	width: 40%;
@@ -419,11 +421,6 @@ li:hover {
    		margin-left: 0px;
    		margin-right: 0px
 	}
-
-	#port_header {
-		padding-top: 25px;
-		height: 65px;
-	}
 }
 
 @media screen and (max-width: 768px) {
@@ -567,11 +564,6 @@ li:hover {
 		position: relative;
 		top: -25px;
 	}
-
-	#true_port_header {
-		padding-bottom: 0px;
-	}
-
 	#thumbnail {
 		width: 50%;
 	}
@@ -635,10 +627,6 @@ li:hover {
 		max-width: 100%;
 		max-height: auto;
 		margin: 25px 0px 10px 0px;
-	}
-
-	#port_header {
-		
 	}
 
 	.port_over1 {
